@@ -216,3 +216,96 @@ align-items: center;
     border-radius: 50px;
     border: none;
     }
+    .card5 {
+        width: 100%;
+        height: 366px;
+        background-color: #3CDDF3;
+        position: relative;
+        top: 60px;
+
+        }
+    .eight_text {
+        color: #FFFFFF;
+        font-size: 30px;
+       text-align: center;
+       padding-top: 40px;
+    }
+
+.contact_boton3 {
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
+.contact_boton3 button {
+background-color: #232C50;
+color: #FFFFFF;
+width: 134px;
+height: 44px;
+border-radius: 50px;
+font-weight: 500px;
+}
+
+.pie {
+width: 100%;
+height: 534.71px;
+background-color: #1E1E26;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.search-form {
+display: flex;
+
+}
+
+footer .pie input[type="text"] {
+width: 230px;
+height: 44px;
+position: relative;
+bottom: 150px;
+border-radius: 50px;
+padding: 10px;
+border: none;
+outline: none;
+font-size: 16px;
+}
+
+button[type="submit"] {
+width: 63px;
+height: 42px;
+background-color: #8B48BF;
+color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 10px;
+  margin-left: 10px;
+  position: relative;
+  bottom: 150px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #1E8CAC;    
+}
+.footer-nav {
+
+}
+
+.footer-nav button {
+margin: 5px 0;
+padding: 5px 10px;
+background-color: #8B48BF;
+color: white;
+border: none;
+border-radius: 50px;
+cursor: pointer;
+}
+
+.footer-nav button:hover {
+background-color: #1E8CAC;
+}
+.left_column {
+position: relative;
+right: 270px;
+}
