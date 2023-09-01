@@ -128,13 +128,18 @@ text-align: center;
 padding: 10px;
 }
 .fith_text {
+position: absolute;
 background-color: #8B48BF4D;
-width: 100%;
+width: 88%;
+height: 43px;
 display: inline-block;
 font-size: 15px;
 color: #323851;
-padding: 10px;
-margin-right: 290px;
+padding: 40px;
+padding-bottom: 10px;
+padding-top: 10px;
+padding-right: 50px;
+margin-left: 40px;
 white-space: nowrap;
 }
 .sixt_text {
@@ -146,8 +151,68 @@ margin-top: 20px;
 margin-bottom: 20px;
 text-align: left;
 padding-left: 10px;
-padding-right: 300px;
 color: #B3B2B7;
-;
-
 }
+.card4 {
+width: 350px;
+height: 478px;
+position: relative;
+margin-top: 60px;
+margin-left: 20px;
+align-items: center;
+text-align: center;
+font-size: 19.21px;
+}
+.big_titte {
+position: relative;
+top: 50px;
+}
+.imagen_tenista {
+width: 77.81px;
+height: 71.39;
+position: relative;
+top: 110px;
+z-index: 1;
+}
+.subt2 {
+position: relative;
+align-items: center;
+font-size: 16.07;
+top: 130px;
+color: #3F4868;
+z-index: 1;
+}
+.seven_text {
+background-color: #FAFAFA;
+width: 350px;
+height: 219px;
+align-items: center;
+position: relative;
+margin-top: 35px;
+}
+
+.seven_text p {
+font-size: 15px;
+line-height: 25.06px;
+text-align: center;
+padding-top: 120px;
+color: #B9B9C1;
+}
+
+.contact_boton2 {
+position: relative;
+top: 80px;
+align-items: center;
+}
+
+.contact_boton2 button {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #8B48BF;
+    font-weight: 500px;
+    font-size: 13.18px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    }
