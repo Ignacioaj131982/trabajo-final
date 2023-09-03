@@ -79,7 +79,7 @@ border-radius: 50px;
 border: none;
 }
 .card2 {
-width: 1440px;
+width: 480px;
 height: 180px;
 background-color: #3CDDF3;
 position: relative;
@@ -469,6 +469,9 @@ background-color: #8B48BF;
 display: flex;
 margin-bottom: 0;
 position: relative;
+width: 1440px;
+height: 180px;
+
 }
 
 .third_text {
@@ -682,7 +685,19 @@ height: 254px;
 
 .card5 {
 position: relative;
-top: 600px;
+top: 400px;
+background-color: #8B48BF;
+width: 1440px;
+height: 224px;
+}
+
+.other_text_desk {
+    color: #FFFFFF;
+    font-size: 40px;
+    position: relative;
+    padding-left: 160px;
+    padding-top: 70px;
+    
 }
 
 .seven_text {
@@ -697,11 +712,38 @@ top: 600px;
 
 .pie {
 position: relative;
-width: 1000px;
-height: 247px;
-top: 100px; 
+
+top: 500px; 
 }
 
+.eight_text {
+display: none;
+}
+
+.desk_contact_boton3 {
+position: relative;
+left: 1100px;
+bottom: 80px;
+}
+
+.desk_contact_boton3 button {
+    background-color: #FFFFFF;
+    color: #8B48BF;
+    width: 134px;
+    height: 44px;
+    border-radius: 50px;
+    font-weight: 500px;
+    border: none;
+    
+}
+
+.desk_contact_boton3 button {
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.contact_boton3 {
+display: none;
+}
 
 }
 
@@ -720,6 +762,18 @@ display: none;
 }
 
 .header-nav {
+display: none;
+}
+
+.nine_text_desk {
+display: none;
+}
+
+.desk_contact_boton3 {
+display: none;
+}
+
+.other_text_desk {
 display: none;
 }
 
