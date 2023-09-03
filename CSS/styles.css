@@ -79,7 +79,7 @@ border-radius: 50px;
 border: none;
 }
 .card2 {
-width: 100%;
+width: 1440px;
 height: 180px;
 background-color: #3CDDF3;
 position: relative;
@@ -201,20 +201,21 @@ color: #B9B9C1;
 
 .contact_boton2 {
 position: relative;
-top: 80px;
+
 align-items: center;
 }
 
 .contact_boton2 button {
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: #8B48BF;
-    font-weight: 500px;
-    font-size: 13.18px;
-    color: white;
-    border-radius: 50px;
-    border: none;
+padding: 10px;
+padding-left: 45px;
+padding-right: 45px;
+background-color: #8B48BF;
+font-weight: 500px;
+font-size: 13.18px;
+color: white;
+border-radius: 50px;
+border: none;
+    
     }
     .card5 {
         width: 100%;
@@ -445,10 +446,22 @@ position: relative;
 left: 240px;
 }
 
-.contact_boton2 {
+.contact_boton4 {
+top: 350px;
 position: relative;
-left: 325px;
-top: 50px;
+left: 660px;
+}
+
+.contact_boton4 button {
+    padding: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: #8B48BF;
+    font-weight: 500px;
+    font-size: 13.18px;
+    color: white;
+    border-radius: 50px;
+    border: none;
 }
 
 .card2 {
@@ -574,7 +587,7 @@ right: 85px;
 }
 
 .card3 {
-width: 100%;
+width: 1440px;
 height: 488px;
 background-color: #FAFAFA;
 display: flex;
@@ -630,8 +643,6 @@ text-align: center;
 padding: 10px;
 }
 
-
-
 .uno_c p {
 color: #FFFFFF;
 font-size: 16px;
@@ -640,8 +651,56 @@ text-align: center;
 padding: 10px;
 }
 
+.big_titte {
+position: relative;
+left: 600px;
+top: 200px;
+white-space: nowrap;
+}
+
+.big_titte h2 {
+color: #242E53;
+font-size: 39.21px;
+}
 
 
+.card4 {
+display: flex;
+position: relative;
+top: 200px;
+left: 40px;
+width: 500px;
+height: 254px;
+
+}
+
+.sanyo, .lebron, .navarro {
+    display: inline-block;
+    
+    
+}
+
+.card5 {
+position: relative;
+top: 600px;
+}
+
+.seven_text {
+    background-color: #FAFAFA;
+    width: 445px;
+    height: 259.48px;
+    align-items: center;
+    position: relative;
+    margin-top: 35px;
+    }
+
+
+.pie {
+position: relative;
+width: 1000px;
+height: 247px;
+top: 100px; 
+}
 
 
 }
@@ -654,4 +713,14 @@ display: none;
 .desk_version1 {
 display: none;
 }
+
+
+.sanyo, .navarro {
+display: none;
+}
+
+.header-nav {
+display: none;
+}
+
 }
