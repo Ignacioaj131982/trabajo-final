@@ -66,27 +66,10 @@ margin-top: 10px;
 margin-left: 10px;
 line-height: 26.01px;
 }
-.contact_boton {
-top: 10px;
-position: relative;
-left: 250px;
-width: 134px;
-height: auto;
-}
-.contact_boton button {
-padding: 10px;
-padding-left: 30px;
-padding-right: 30px;
-background-color: #8B48BF;
-font-weight: 500px;
-font-size: 13.18px;
-color: white;
-border-radius: 50px;
-border: none;
-}
+
 .card2 {
-width: 480px;
-height: 180px;
+width: 390px;
+height: 306px;
 background-color: #3CDDF3;
 position: relative;
 top: 60px;
@@ -99,7 +82,7 @@ padding-left: 10px;
 }
 .fourth_text {
 color: #FFFFFF;
-font-size: 16px;
+font-size: 13px;
 padding-top: 20px;
 padding-left: 10px;
 line-height: 24.18px;
@@ -118,7 +101,9 @@ grid-template-columns: auto auto;
 
 
 }
-.uno {
+.first_mob,
+.second_mob,
+.third_mob {
 display: inline-block;
 width: 69px;
 height: 43px;
@@ -126,14 +111,20 @@ background-color: #8B48BF;
 border-radius: 30px;
 margin-right: 10px;
 }
-.uno p {
+
+.first_mob p,
+.second_mob p,
+.third_mob p {
 color: #FFFFFF;
 font-size: 16px;
-font-weight: 700px;
+font-weight: 700;
 text-align: center;
 padding: 10px;
 }
-.fith_text {
+
+.fith_text_mobile,
+.fith_text_b_mobile,
+.fith_text_c_mobile {
 position: absolute;
 background-color: #8B48BF4D;
 width: 88%;
@@ -148,7 +139,10 @@ padding-right: 50px;
 margin-left: 40px;
 white-space: nowrap;
 }
-.sixt_text {
+
+.sixt_text_mobile,
+.sixt_text_a_mobile,
+.sixt_text_b_mobile {
 font-weight: 500px;
 font-size: 15px;
 line-height: 25.52px;
@@ -159,20 +153,28 @@ text-align: left;
 padding-left: 10px;
 color: #B3B2B7;
 }
-.card4 {
+.card4_mobile {
 width: 350px;
 height: 478px;
 position: relative;
+top: 150px;
 margin-top: 60px;
 margin-left: 20px;
 align-items: center;
 text-align: center;
 font-size: 19.21px;
 }
-.big_titte {
+.big_titte_mob {
 position: relative;
-top: 50px;
+top: 250px;
+left: 60px;
 }
+
+.big_titte_mob h2 {
+    color: #242E53;
+    font-size: 29.21px;
+        }
+
 .imagen_tenista {
 width: 77.81px;
 height: 71.39;
@@ -188,16 +190,16 @@ top: 130px;
 color: #3F4868;
 z-index: 1;
 }
-.seven_text {
+.seven_text_mobile {
 background-color: #FAFAFA;
 width: 350px;
-height: 219px;
+height: 254px;
 align-items: center;
 position: relative;
 margin-top: 35px;
 }
 
-.seven_text p {
+.seven_text_mobile p {
 font-size: 15px;
 line-height: 25.06px;
 text-align: center;
@@ -207,13 +209,13 @@ color: #B9B9C1;
 
 .contact_boton2 {
 position: relative;
-
-align-items: center;
+top: 20px;
+left: 220px;
 }
 
 .contact_boton2 button {
 padding: 10px;
-padding-left: 45px;
+padding-left: 40px;
 padding-right: 45px;
 background-color: #8B48BF;
 font-weight: 500px;
@@ -221,6 +223,8 @@ font-size: 13.18px;
 color: white;
 border-radius: 50px;
 border: none;
+width: 134px;
+height: 44px;
     
     }
     .card5 {
@@ -252,6 +256,28 @@ border-radius: 50px;
 font-weight: 500px;
 border: none;
 }
+
+.boton4_mob {
+    top: 60px;
+    position: relative;
+    left: 130px;
+    }
+    
+    .boton4_mob button {
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: #8B48BF;
+    font-weight: 500px;
+    font-size: 13.18px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    }
+
+
 
 .pie {
 width: 100%;
@@ -376,7 +402,7 @@ font-size: 12.5px;
 
 @media screen and (min-width: 767px) {
 
-    .menu_icon {
+.menu_icon {
 display: none;
 }
 .header-nav {
@@ -429,6 +455,22 @@ width: 134px;
 height: auto;
 }
 
+.contact_boton button {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #8B48BF;
+    font-weight: 500px;
+    font-size: 13.18px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    width: 134px;
+    height: 44px;
+    }
+    
+
+
 .card {
 width: 1090px;
 height: 562px;
@@ -480,12 +522,6 @@ position: relative;
 width: 1440px;
 height: 180px;
 
-}
-
-.third_text {
-position: relative;
-left: 100px;
-padding: 30px;
 }
 
 .hide_text_mobile {
@@ -679,7 +715,7 @@ font-size: 39.21px;
 display: flex;
 position: relative;
 top: 180px;
-left: 40px;
+left: 90px;
 width: 500px;
 height: 254px;
 
@@ -687,8 +723,9 @@ height: 254px;
 
 .sanyo, .lebron, .navarro {
     display: inline-block;
-    
-    
+    position: relative;
+    left: 180px;
+
 }
 
 .card5 {
@@ -714,9 +751,18 @@ height: 224px;
     height: 259.48px;
     align-items: center;
     position: relative;
+    right: 200px;
     margin-top: 35px;
     }
 
+            
+        .seven_text p {
+        font-size: 15px;
+        line-height: 25.06px;
+        text-align: center;
+        padding-top: 120px;
+        color: #B9B9C1;
+        }
 
 .pie {
 width: 1440px;
@@ -822,6 +868,34 @@ display: none;
 
 }
 
+.first_mob,
+.second_mob,
+.third_mob {
+display: none;
+}
+
+.first_mob p,
+.second_mob p,
+.third_mob p {
+display: none;
+}
+
+.fith_text_mobile,
+.sixt_text_mobile,
+.sixt_text_a_mobile,
+.fith_text_c_mobile,
+.sixt_text_b_mobile,
+.fith_text_b_mobile,
+.big_titte_mob,
+.card4_mobile,
+.seven_text_mobile,
+.seven_text_mob p
+.boton4_mob,
+.boton4_mob button {
+display: none;
+}
+
+
 }
 
 @media screen and (max-width: 767px) {
@@ -829,7 +903,9 @@ display: none;
 display: none;
 }
 
-.desk_version1 {
+.desk_version1,
+.big_titte,
+.card4 {
 display: none;
 }
 
@@ -853,5 +929,37 @@ display: none;
 .other_text_desk {
 display: none;
 }
+
+.second_text_desk {
+display: none;
+}
+
+.contact_boton {
+display: nones;
+}
+
+.contact_boton button {
+display: none;
+}
+
+.uno_a,
+.uno_b,
+.uno_c {
+display: none;
+}
+
+.fith_text_a,
+.fith_text_b,
+.fith_text_c {
+display: none;
+}
+
+.sixt_text,
+.sixt_text_a,
+.sixt_text_b,
+.contact_boton4 {
+display: none;
+}
+
 
 }
