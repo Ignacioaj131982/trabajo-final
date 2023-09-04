@@ -144,7 +144,7 @@ white-space: nowrap;
 .sixt_text_a_mobile,
 .sixt_text_b_mobile {
 font-weight: 500px;
-font-size: 15px;
+font-size: 12px;
 line-height: 25.52px;
 grid-column: span 2;
 margin-top: 20px;
@@ -157,7 +157,7 @@ color: #B3B2B7;
 width: 350px;
 height: 478px;
 position: relative;
-top: 150px;
+top: 0px;
 margin-top: 60px;
 margin-left: 20px;
 align-items: center;
@@ -166,7 +166,7 @@ font-size: 19.21px;
 }
 .big_titte_mob {
 position: relative;
-top: 250px;
+top: 100px;
 left: 60px;
 }
 
@@ -232,7 +232,7 @@ height: 44px;
         height: 366px;
         background-color: #3CDDF3;
         position: relative;
-        top: 60px;
+        top: 80px;
 
         }
     .eight_text {
@@ -258,7 +258,7 @@ border: none;
 }
 
 .boton4_mob {
-    top: 60px;
+    top: -10px;
     position: relative;
     left: 130px;
     }
@@ -283,11 +283,11 @@ border: none;
 width: 100%;
 height: 534.71px;
 background-color: #1E1E26;
-;
 display: flex;
 justify-content: center;
 align-items: center;
 position: relative;
+top: 80px;
 }
 
 .search-form {
