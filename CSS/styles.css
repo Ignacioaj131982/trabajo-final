@@ -6,95 +6,100 @@
     box-sizing: border-box;
     font-family: 'Be Vietnam Pro', 'sans-serif';
     text-decoration: none;
+font-size: 1em;
+
 }
 .encabezado {
-width: 100%;
-height: 60px;
-margin-top: 40px;
+width: 6.25em;
+height: 3.75em;
+margin-top:  2.5em;
 display: flex;
 flex-direction: row;
-margin-left: 56px;
+margin-left: 3.5em;
 }
 .imagen_cabeza {
-top: 17.5px;
-width: 25px;
-height: 25px;
+top: 1.09375em;
+width: 1.5625em;
+height: 1.5625em;
 }
 .imagen_sportif {
-margin-left: 10px;
-width: 73.68px;
-height: 25px;
-top: 17.5px;
+margin-left: 0.625em;
+width: 4.605em;
+height: 1.5625em;
+top: 1.09375em;
 }
 .menu_icon {
-width: 60px;
-height: 40px;
+width: 3.75em;
+height: 2.5em;
 position: relative;
-left: 150px;
-bottom: 11px;
+left: 9.375em;
+bottom: 0.6875em;
 }
 
 .header-nav ul li a {
 color: #242E52;
-font-size: 13px;
+font-size:  0.8125em;
 }
 
 .card {
 width: 100%;
-height: 600px;
+height: 37.5em;
 }
 .card img {
-width: 300px;
+width: 18.75em;
 height: auto;
-margin-left: 25px;
+margin-left: 1,5625em;
 }
 .primer_text p{
 text-align: right;
 color: #232C50;
-font-weight: 700px;
-font-size: 40px;
+font-weight: 43.75em;
+font-size: 2.5em;
 margin-right: 20px;
 }
+
 .second_text p {
 text-align: right;
 position: relative;
-font-weight: 500px;
-font-size: 15px;
-left: 10px;
-margin-right: 30px;
-margin-top: 10px;
-margin-left: 10px;
-line-height: 26.01px;
+font-weight: 1,953125em;
+font-size: 0.937515em;
+left: 0.625em;
+margin-right: 1.875em;
+margin-top: 0.625em;
+margin-left: 0.625em;
+line-height: 1.625625em;
 }
 
 .card2 {
-width: 390px;
-height: 306px;
+width: 24.375em;
+height: 19.125em;
 background-color: #3CDDF3;
 position: relative;
-top: 60px;
+top: 3.75em;
 }
 .third_text {
 color: #FFFFFF;
-font-size: 36px;
-padding-top: 20px;
-padding-left: 10px;
+font-size: 2.25em;
+padding-top: 1.25em;
+padding-left: 0.625em;
 }
+
 .fourth_text {
 color: #FFFFFF;
-font-size: 13px;
-padding-top: 20px;
-padding-left: 10px;
-line-height: 24.18px;
+font-size: 0.8125em;
+padding-top: 1.25em;
+padding-left: 0.625em;
+line-height: 1.51em;
 }
 .card3 {
-width: 350px;
-height: 682px;
+width: 21.875em;
+height: 42.625em;
 background-color: #FFFFFF;
 position: relative;
-top: 110px;
-margin-left: 30px;
+top: 6.875em;
+margin-left: 1.875em;
 }
+
 .subt1 {
 display: grid;
 grid-template-columns: auto auto;
@@ -105,21 +110,21 @@ grid-template-columns: auto auto;
 .second_mob,
 .third_mob {
 display: inline-block;
-width: 69px;
-height: 43px;
+width: 4.3125em;
+height: 2,6875em;
 background-color: #8B48BF;
-border-radius: 30px;
-margin-right: 10px;
+border-radius: 1.875em;
+margin-right: 0.625em;
 }
 
 .first_mob p,
 .second_mob p,
 .third_mob p {
 color: #FFFFFF;
-font-size: 16px;
+font-size: 1em;
 font-weight: 700;
 text-align: center;
-padding: 10px;
+padding: 0.625em;
 }
 
 .fith_text_mobile,
@@ -128,152 +133,159 @@ padding: 10px;
 position: absolute;
 background-color: #8B48BF4D;
 width: 88%;
-height: 43px;
+height: 2.68em;
 display: inline-block;
-font-size: 15px;
+font-size: 0.9375em;
 color: #323851;
-padding: 40px;
-padding-bottom: 10px;
-padding-top: 10px;
-padding-right: 50px;
-margin-left: 40px;
+padding: 2.5em;
+padding-bottom: 0.625em;
+padding-top: 0.625em;
+padding-right: 3.125em;
+margin-left: 3.125em;
+
 white-space: nowrap;
 }
 
 .sixt_text_mobile,
 .sixt_text_a_mobile,
 .sixt_text_b_mobile {
-font-weight: 500px;
-font-size: 12px;
-line-height: 25.52px;
+font-weight: 31.25em;
+font-size: 0.75em;
+line-height: 1.595em;
 grid-column: span 2;
-margin-top: 20px;
-margin-bottom: 20px;
+margin-top: 1.25em;
+margin-bottom: 1.25em;
 text-align: left;
-padding-left: 10px;
+padding-left: 0.625em;
 color: #B3B2B7;
 }
 .card4_mobile {
-width: 350px;
-height: 478px;
+width: 21.875em;
+height: 29.875em;
 position: relative;
 top: 0px;
-margin-top: 60px;
-margin-left: 20px;
+margin-top: 3.75em;
+margin-left: 1.25em;
 align-items: center;
 text-align: center;
 font-size: 19.21px;
 }
 .big_titte_mob {
 position: relative;
-top: 100px;
-left: 60px;
+top: 1.25em;
+left: 3.75em;
 }
 
 .big_titte_mob h2 {
     color: #242E53;
-    font-size: 29.21px;
+    font-size: 1.825625em;
         }
 
 .imagen_tenista {
-width: 77.81px;
-height: 71.39;
+width: 4.863125em;
+height: 4.461875em;
 position: relative;
-top: 110px;
+top: 2.875em;
+right: 2em;
 z-index: 1;
 }
 .subt2 {
 position: relative;
 align-items: center;
-font-size: 16.07;
-top: 130px;
+font-size: 1.004375em;
+top: 4em;
+right: 2em;
 color: #3F4868;
 z-index: 1;
 }
 .seven_text_mobile {
 background-color: #FAFAFA;
-width: 350px;
-height: 254px;
+width: 21.875em;
+height: 15.875em;
 align-items: center;
 position: relative;
-margin-top: 35px;
+margin-top: 2.1875em;
+font-size: 16px;
+right: 0.7em;
+bottom: 3em;
+padding-top: 2em;
 }
 
 .seven_text_mobile p {
-font-size: 15px;
-line-height: 25.06px;
+font-size: 0.8125em;
+line-height: 1.56625em;
 text-align: center;
-padding-top: 120px;
+padding-top: 6.875em;
 color: #B9B9C1;
 }
 
 .contact_boton2 {
 position: relative;
-top: 20px;
-left: 220px;
+top: 1.25em;
+left: 13.75em;
 }
 
 .contact_boton2 button {
-padding: 10px;
-padding-left: 40px;
-padding-right: 45px;
+padding: 0.625em;
+padding-left: 2.1em;
+padding-right: 2.8125em;
 background-color: #8B48BF;
-font-weight: 500px;
+font-weight: 500;
 font-size: 13.18px;
 color: white;
-border-radius: 50px;
+border-radius: 3.125em;
 border: none;
-width: 134px;
-height: 44px;
+width: 8.375em;
+height: 2.75em;
     
     }
     .card5 {
         width: 100%;
-        height: 366px;
+        height: 22.875em;
         background-color: #3CDDF3;
         position: relative;
-        top: 80px;
+        bottom: 7em;
 
         }
     .eight_text {
     color: #FFFFFF;
     font-size: 30px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 2.5em;
     }
 
 .contact_boton3 {
     position: relative;
-    top: 40px;
+    top: 2.5em;
     text-align: center;
 }
 .contact_boton3 button {
 background-color: #232C50;
 color: #FFFFFF;
-width: 134px;
-height: 44px;
-border-radius: 50px;
-font-weight: 500px;
+width: 8.375em;
+height: 2.75em;
+border-radius: 3.125em;
+font-weight: 500;
 border: none;
 }
 
 .boton4_mob {
-    top: -10px;
+    top: -9.625em;
     position: relative;
-    left: 130px;
+    left: 8.125em;
     }
     
     .boton4_mob button {
-    width: 134px;
-    height: 44px;
-    padding: 10px;
-    padding-left: 45px;
-    padding-right: 45px;
+    width: 8.375em;
+    height: 2.75em;
+    padding: 0.625em;
+    padding-left: 2.8125em;
+    padding-right: 2.8125em;
     background-color: #8B48BF;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 13.18px;
     color: white;
-    border-radius: 50px;
+    border-radius: 3.125em;
     border: none;
     }
 
@@ -281,47 +293,47 @@ border: none;
 
 .pie {
 width: 100%;
-height: 534.71px;
+height: 33.419375em;
 background-color: #1E1E26;
 display: flex;
 justify-content: center;
 align-items: center;
 position: relative;
-top: 80px;
+bottom: 7em;
 }
 
 .search-form {
 display: flex;
 position: relative;
-left: 410px;
-bottom: 50px;
+left: 25.62em;
+bottom: 3.125em;
 }
 
 footer .pie input[type="text"] {
-width: 230px;
-height: 44px;
+width: 14.375em;
+height: 2.75em;
 position: relative;
-left: 20px;
-bottom: 150px;
-border-radius: 50px;
-padding: 10px;
+left: 1.25em;
+bottom: 9.375em;
+border-radius: 3.125em;
+padding: 0.625em;
 border: none;
 outline: none;
 font-size: 16px;
 }
 
 button[type="submit"] {
-width: 63px;
-height: 42px;
+width: 3.9375em;
+height: 2.625em;
 background-color: #8B48BF;
 color: white;
 border: none;
-border-radius: 50px;
-padding: 10px 10px;
-margin-left: 10px;
+border-radius: 3.125em;
+padding: 0.625em 0.625em;
+margin-left: 0.625em;
 position: relative;
-left: 15px;
-bottom: 150px;
+left: 0.9375em;
+bottom: 9.375em;
 cursor: pointer;
 }
 
@@ -331,7 +343,7 @@ button[type="submit"]:hover {
 
 .footer-nav {
 position: relative;
-bottom: 40px;
+bottom: 2.5em;
 
 }
 ul {
@@ -341,61 +353,62 @@ ul {
 
 .left_column {
 position: relative;
-top: 30px;
-left: 160px;
+top: 1.875em;
+left: 8em;
 }
 
 .left_column li {
-line-height: 32px;   
+line-height: 2em;   
 }
 .left_column li a {
 color: #FFFFFF;
-font-size: 16px;
+font-size: 1em;
 list-style-type: none;
 text-decoration: none;
-font-weight: 400px;
+font-weight: 400;
 }
 
 .right_column {
 position: relative;
-bottom: 95px;
-left: 330px;
+bottom: 5.9375em;
+left: 20em;
 }
 
 .right_column li {
-line-height: 23.8px;  
-line-height: 32px; 
+line-height: 1.455em;  
+line-height: 2em;
+white-space: nowrap;
 }
 
 .bottom_icons {
 position: relative;
 display: flex;
 justify-content: space-between;
-margin-bottom: 20px;
+margin-bottom: 1.25em;
 align-items: center;
-top: 60px;
-left: 10px;
+top: 3.75em;
+left: 0.625em;
 z-index: 1;
 }
 
 .bottom_icons i {
-margin-right: 60px;
+margin-right: 3.75em;
 color: #FFFFFF;
 }
 
 .pie_abajo {
 position: relative;
 display: flex;
-top: 90px;
-right: 260px;
+top: 8em;
+right: 16.25em;
 }
 
 .nine_text {
 position: relative;
 display: flex;
 color: #8C8C94;
-right: 430px;
-top: 120px;
+right: 35em;
+top: 15em;
 white-space: nowrap;
 font-size: 12.5px;
 }
@@ -409,13 +422,13 @@ display: none;
 display: flex;
 flex-direction: row;
 position: relative;
-left: 260px;
-top: 5px;
+left: 16.25em;
+top: 0.3125em;
 }
 
 .header-nav li {
 display: inline-block;
-padding: 15px;
+padding: 0.9375em;
 }
 
 .header-nav li a {
@@ -426,91 +439,92 @@ position: relative;
 
 .imagen_cabeza {
 position: relative;
-top: 20px;
-width: 25px;
-height: 25px;
-left: 110px;
+top: 1.25em;
+width: 1.5625em;
+height: 1.5625em;
+left: 6.875em;
 }
+
 .encabezado {
 width: 100%;
-height: 100px;
-margin-top: 10px;
+height: 6.25em;
+margin-top: 0.625em;
 display: flex;
 flex-direction: row;
-margin-left: 56px;
+margin-left: 3.5em;
 }
 .imagen_sportif {
-width: 73.68px;
-height: 25px;
-top: 17.5px;
+width: 4.605em;
+height: 1.5625em;
+top: 1.09375em;
 position: relative;
-left: 120px;
+left: 7.5em;
 }
 
 .contact_boton {
-top: 10px;
+top: 0.625em;
 position: relative;
-left: 450px;
-width: 134px;
+left: 28.125em;
+width: 8.375em;
 height: auto;
 }
 
 .contact_boton button {
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 0.625em;
+    padding-left: 1.875em;
+    padding-right: 1.875em;
     background-color: #8B48BF;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 13.18px;
     color: white;
-    border-radius: 50px;
+    border-radius: 3.125em;
     border: none;
-    width: 134px;
-    height: 44px;
+    width: 8.375em;
+    height: 2.75em;
     }
     
 
 
 .card {
-width: 1090px;
-height: 562px;
+width: 68,125em;
+height: 35.125em;
 display: flex;
-top: 80px;
+top: 5em;
 position: relative;
 }
 
 .pro_tennis img.tenista {
-width: 540px;
-height: 461.07px;
+width: 33.75em;
+height: 28.816875em;
 position: relative;
-bottom: 30px;
-left: 150px;
+bottom: 1.875em;
+left: 9.375em;
 }
 
 .card_content {
-width: 450px;
-height: 399px;
+width: 28.125em;
+height: 24.9375em;
 position: relative;
-left: 240px;
+left: 15em;
 }
 
 .contact_boton4 {
-top: 350px;
+top: 21.875em;
 position: relative;
-left: 660px;
+left: 41.25em;
 }
 
 .contact_boton4 button {
-width: 134px;
-height: 44px;
-padding: 10px;
-padding-left: 45px;
-padding-right: 45px;
+width: 8.375em;
+height: 2.75em;
+padding: 0.625em;
+padding-left: 2.8125em;
+padding-right: 2.8125em;
 background-color: rgba(139, 72, 191, 0.7);
-font-weight: 500px;
+font-weight: 500;
 font-size: 13.18px;
 color: white;
-border-radius: 50px;
+border-radius: 3.125em;
 border: none;
 }
 
@@ -519,16 +533,16 @@ background-color: #8B48BF;
 display: flex;
 margin-bottom: 0;
 position: relative;
-width: 1440px;
-height: 180px;
+width: 90em;
+height: 11.25em;
 
 }
 
 .hide_text_mobile {
 color: #FFFFFF;
-font-size: 16px;
-padding-top: 20px;
-padding-left: 10px;
+font-size: 1em;
+padding-top: 1.25em;
+padding-left: 0.625em;
 }
 
 .third_text {
@@ -541,41 +555,41 @@ display: none;
 
 .desk_version1 {
 color: #FFFFFF;
-font-size: 36px;
-padding-top: 20px;
-padding-left: 10px;
+font-size: 2.25em;
+padding-top: 1.25em;
+padding-left: 0.625em;
 position: relative;
-left: 220px;
-top: 25px;
+left: 4em;
+top: 0.1em;
 } 
 
 .hide_text_mobile {
 position: relative;
-left: 300px;
-top: 20px;
-line-height: 24.18px;
+left: 18.75em;
+top: 1.25em;
+line-height: 1.51125em;
 }
 
 .uno_a,
 .uno_b,
 .uno_c {
-    width: 69px;
+    width: 5em;
     height: 43px;
     background-color: #8B48BF;
-    border-radius: 30px;
-    margin-bottom: 10px;
+    border-radius: 1.875em;
+    margin-bottom: 0.625em;
 }
 
 .uno_a {
 position: relative;
-right: 150px;
-top: 50px;
+right: 9.375em;
+top: 3.125em;
 }
 
 .uno_b {
 position: relative;
-left: 450px;
-bottom: 95px;
+left: 28.125em;
+bottom: 5.9375em;
 }
 
 .uno_c {
@@ -587,14 +601,14 @@ bottom: 95px;
 .uno_a p {
 color: #FFFFFF;
 font-size: 16px;
-font-weight: 700px;
+font-weight: 700;
 text-align: center;
-padding: 10px;
+padding: 0.625em;
 }
 
 .fith_text {
 position: relative;
-left: 240px;
+left: 15em;
 background-color: #FFFFFF;
 }
 
@@ -607,50 +621,50 @@ background-color: #FFFFFF;
 .sixt_text_b {
 font-weight: 500;
 font-size: 15px;
-line-height: 25.52px;
-margin: 10px 0;
+line-height: 1.595em;
+margin: 0.625em 0;
 text-align: left;
-padding-left: 10px;
+padding-left: 0.625em;
 color: #B3B2B7;
 white-space: nowrap;
 }
 
 .sixt_text_a {
 position: relative;
-bottom: 40px;
-right: 350px;
+bottom: 2.5em;
+right: 21.875em;
 }
 
 .sixt_text {
 position: relative;
-top: 100px;
-left: 260px;
+top: 6.25em;
+left: 16.25em;
 }
 
 .sixt_text_b {
 position: relative;
-top: 10px;
-right: 85px;
+top: 0.625em;
+right: 5.3125em;
 }
 
 .card3 {
-width: 1440px;
-height: 488px;
+width: 90em;
+height: 30.5em;
 background-color: #FAFAFA;
 display: flex;
 flex-direction:column;
 align-items: center;
 position: relative;
 margin-top: 0;
-right: 30px;
-top: 60px;
+right: 1.875em;
+top: 3.75em;
 }
 
 .subt1 {
 display: flex;
 flex-direction: row;
 
-margin-bottom: 20px;
+margin-bottom: 1.25em;
 }
 
 .fith_text_a,
@@ -661,47 +675,47 @@ white-space: nowrap;
 font-size: 15px;
 color: #323851;
 text-align: center;
-margin: 10px 0;
+margin: 0.625em 0;
 }
 
 .fith_text_a {
 position: relative;
-top: 50px;
-right: 130px;
+top: 3.2em;
+right: 7.5em;
 }
 
 .fith_text_b {
     position: relative;
-    bottom: 93px;
-    left: 480px;
+    bottom: 5.8125em;
+    left: 31em;
     }
 
 .fith_text_c {
 position: relative;
-bottom: 40px;
-left: 170px;
+bottom: 2.5em;
+left: 11.5em;
 }
 
 .uno_b p {
 color: #FFFFFF;
-font-size: 16px;
-font-weight: 700px;
+font-size: 1em;
+font-weight: 700;
 text-align: center;
-padding: 10px;
+padding: 0.625em;
 }
 
 .uno_c p {
 color: #FFFFFF;
-font-size: 16px;
-font-weight: 700px;
+font-size: 1em;
+font-weight: 700;
 text-align: center;
-padding: 10px;
+padding: 0.625em;
 }
 
 .big_titte {
 position: relative;
-left: 600px;
-top: 170px;
+left: 36em;
+top: 8em;
 white-space: nowrap;
 }
 
@@ -714,65 +728,64 @@ font-size: 39.21px;
 .card4 {
 display: flex;
 position: relative;
-top: 180px;
-left: 90px;
-width: 500px;
-height: 254px;
+top: 11.25em;
+left: 5.625em;
+width: 31.25em;
+height: 15.875em;
 
 }
 
 .sanyo, .lebron, .navarro {
     display: inline-block;
     position: relative;
-    left: 180px;
+    left: 11.25em;
 
 }
 
 .card5 {
 position: relative;
-top: 500px;
+top: 31.25em;
 background-color: #8B48BF;
-width: 1440px;
-height: 224px;
+width: 90em;
+height: 14em;
 }
 
 .other_text_desk {
     color: #FFFFFF;
     font-size: 40px;
     position: relative;
-    padding-left: 160px;
-    padding-top: 70px;
+    padding-left: 5em;
+    padding-top: 1.375em;
     
 }
 
 .seven_text {
     background-color: #FAFAFA;
-    width: 445px;
-    height: 259.48px;
+    width: 27.8125em;
+    height: 16.2175em;
     align-items: center;
     position: relative;
-    right: 200px;
-    margin-top: 35px;
+    right: 12.5em;
+    margin-top: 2.1875em;
+    bottom: 3em;
     }
 
             
         .seven_text p {
         font-size: 15px;
-        line-height: 25.06px;
+        line-height: 1.56625em;
         text-align: center;
-        padding-top: 120px;
+        padding-top: 7.5em;
         color: #B9B9C1;
         }
 
 .pie {
-width: 1440px;
-height: 247px;
+width: 90em;
+height: 15.4375em;
 position: relative;
 margin-top: 0;
-bottom: 100px;
-
-
-top: 500px; 
+bottom: 6.25em;
+top: 31.25em; 
 }
 
 .eight_text {
@@ -781,17 +794,17 @@ display: none;
 
 .desk_contact_boton3 {
 position: relative;
-left: 1100px;
-bottom: 80px;
+left: 68.75em;
+bottom: 5em;
 }
 
 .desk_contact_boton3 button {
     background-color: #FFFFFF;
     color: #8B48BF;
-    width: 134px;
-    height: 44px;
-    border-radius: 50px;
-    font-weight: 500px;
+    width: 8.375em;
+    height: 2.75em;
+    border-radius: 3.125em;
+    font-weight: 500;
     border: none;
     
 }
@@ -806,61 +819,61 @@ display: none;
 
 .search-form {
 position: relative;
-top: 115px;
-left: 700px;
+top: 7.1875em;
+left: 43.75em;
 }
 
 .footer-nav {
 position: relative;
-top: 10px;
-right: 270px;
+top: 0.625em;
+right: 14.875em;
 }
 
 .right_column {
 position: relative;
-left: 440px;
+left: 25em;
 
 }
 
 .bottom_icons i {
 position: relative;
-right: 490px;
-bottom: 10px;
-margin-right: 10px;
+right: 19.5em;
+bottom: 0.625em;
+margin-right: 0.625em;
 font-size: 24px;
 }
 
 .pie_abajo {
 position: relative;
-right: 760px;
-top: -80px;
+right: 47.5em;
+top: -5em;
 
 }
 
 .nine_text {
 position: relative;
-right: -100px;
-top: 70px;
+right: -6.25em;
+top: 4.375em;
 font-size: 12.5px;
 }
 
 .contact_boton2 {
 position: relative;
-left: 270px;
-top: 80px;
+left: 20em;
+top: 5em;
 }
 
 .second_text_desk p {
     text-align: right;
     position: relative;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 16.56px;
-    left: 10px;
-    top: 30px;
-    margin-right: 30px;
-    margin-top: 10px;
-    margin-left: 10px;
-    line-height: 26.01px;
+    left: 0.625em;
+    top: 1.875em;
+    margin-right: 1.875em;
+    margin-top: 0.625em;
+    margin-left: 0.625em;
+    line-height: 1.625625em;
 }
 
 .second_text {
